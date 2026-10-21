@@ -1,0 +1,18 @@
+# NullShift environment (Python 3.13, CUDA 13 driver). Pin loosely; exact versions frozen in requirements.lock.txt
+torch
+torchvision
+timm>=1.0.20
+huggingface_hub
+safetensors
+numpy
+scipy
+scikit-image
+pillow
+matplotlib
+pandas
+pyyaml
+tqdm
+mlflow
+pytest
+rasterio
+shapely

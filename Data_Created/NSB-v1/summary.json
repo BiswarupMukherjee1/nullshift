@@ -1,0 +1,30 @@
+{
+  "n_crops_val": 1024,
+  "n_crops_test": 2048,
+  "n_test512": 512,
+  "n_g3_eligible": 202,
+  "n_nullpairs": 26610,
+  "n_fit_interventions": 5376,
+  "provenance": {
+    "source": "LEVIR-CD (Chen & Shi 2020), HF mirror satellite-image-deep-learning/LEVIR-CD",
+    "splits": {
+      "val": {
+        "n_scenes": 64,
+        "n_png": 192,
+        "sha256_first_A": "f1153fcd3faf0b61b94c8742b632c0db9b57f92b187d01905a2e3d67ab862e0c"
+      },
+      "test": {
+        "n_scenes": 128,
+        "n_png": 384,
+        "sha256_first_A": "0b42012ec2f384fdffe7c9e3ef7c7a5bec77cbe57a30a1fc530833667a9b0d46"
+      }
+    },
+    "margin_px": 64,
+    "tile_px": 256,
+    "seed": 20260928,
+    "zip_sha256": [
+      "0bdf73ebd220f392fd58dea8b6cb0e369a8d8d2f59c29827d2349178e3131287  test.zip",
+      "0739bb257b0237631e58d196da6530bc82ff2eb5acb8056cd8444d2f94d058c7  val.zip"
+    ]
+  }
+}

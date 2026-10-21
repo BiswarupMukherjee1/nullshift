@@ -1,0 +1,16 @@
+paired quadkey bootstrap (B=400), patch-level:
+  localmin+geoPms  - localmin  : dAUROC +0.0092 [+0.0037, +0.0144] P>0=1.000 | dNCR -0.0791 [-0.0917, -0.0675] P<0=1.000
+  localmin+geoPms  - localmin1 : dAUROC +0.0156 [+0.0089, +0.0219] P>0=1.000 | dNCR -0.0761 [-0.0879, -0.0653] P<0=1.000
+  localmin+geoP    - localmin1 : dAUROC +0.0086 [+0.0053, +0.0114] P>0=1.000 | dNCR -0.0448 [-0.0500, -0.0399] P<0=1.000
+  geoPms           - geoP      : dAUROC +0.0298 [+0.0199, +0.0404] P>0=1.000 | dNCR -0.0508 [-0.0687, -0.0374] P<0=1.000
+  localmin+geoPms  - raw       : dAUROC +0.0641 [+0.0448, +0.0851] P>0=1.000 | dNCR -0.1253 [-0.1578, -0.0976] P<0=1.000
+
+landscape-matched control: change vs null windows within 2 km of the burn perimeters (n_null=98):
+  raw              patch AUROC all-null 0.8413   near-fire-null 0.8147
+  geoP             patch AUROC all-null 0.8559   near-fire-null 0.8271
+  geoPms           patch AUROC all-null 0.8856   near-fire-null 0.8588
+  localmin         patch AUROC all-null 0.8961   near-fire-null 0.8773
+  localmin1        patch AUROC all-null 0.8898   near-fire-null 0.8718
+  localmin+geoP    patch AUROC all-null 0.8983   near-fire-null 0.8774
+  localmin+geoPms  patch AUROC all-null 0.9054   near-fire-null 0.8822
+  classic          patch AUROC all-null 0.8452   near-fire-null 0.8224

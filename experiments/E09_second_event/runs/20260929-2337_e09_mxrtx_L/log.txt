@@ -1,0 +1,79 @@
+[    18.2s] 8/298 pairs
+[    29.4s] 16/298 pairs
+[    41.0s] 24/298 pairs
+[    52.4s] 32/298 pairs
+[    63.7s] 40/298 pairs
+[    75.1s] 48/298 pairs
+[    86.6s] 56/298 pairs
+[    98.2s] 64/298 pairs
+[   109.5s] 72/298 pairs
+[   121.0s] 80/298 pairs
+[   132.4s] 88/298 pairs
+[   143.8s] 96/298 pairs
+[   155.3s] 104/298 pairs
+[   166.7s] 112/298 pairs
+[   178.1s] 120/298 pairs
+[   189.7s] 128/298 pairs
+[   201.2s] 136/298 pairs
+[   212.6s] 144/298 pairs
+[   224.0s] 152/298 pairs
+[   235.4s] 160/298 pairs
+[   246.9s] 168/298 pairs
+[   258.3s] 176/298 pairs
+[   269.8s] 184/298 pairs
+[   281.2s] 192/298 pairs
+[   292.6s] 200/298 pairs
+[   304.1s] 208/298 pairs
+[   315.6s] 216/298 pairs
+[   326.9s] 224/298 pairs
+[   338.3s] 232/298 pairs
+[   349.8s] 240/298 pairs
+[   361.1s] 248/298 pairs
+[   372.6s] 256/298 pairs
+[   384.1s] 264/298 pairs
+[   395.6s] 272/298 pairs
+[   407.1s] 280/298 pairs
+[   418.8s] 288/298 pairs
+[   430.2s] 296/298 pairs
+[   433.9s] 298/298 pairs
+[   434.0s] E05 real arena (change vs real near-null):
+                 AUROC_patch/all_null  AUROC_win_mean/all_null  TPR@5%FCR_win/all_null  TPR@5%FCR_patch/all_null  NCR/all_null  AUROC_patch/null_post  AUROC_patch/null_pre  FCR_levirR99/all_null
+method                                                                                                                                                                                            
+raw                            0.9178                   0.9396                  0.6167                    0.5368        0.5549                 0.9293                0.9918                 0.1856
+geoP                           0.9259                   0.9433                  0.6333                    0.5740        0.4785                 0.9422                0.9962                 0.1755
+localmin                       0.9319                   0.9460                  0.6417                    0.6167        0.5499                 0.9519                0.9973                 0.2180
+localmin+geoPms                0.9360                   0.9475                  0.6667                    0.6386        0.4593                 0.9592                0.9989                    NaN
+c2f                            0.9352                   0.9478                  0.6750                    0.6335        0.4765                 0.9562                0.9984                    NaN
+c2f+radP                       0.9359                   0.9498                  0.6667                    0.6337        0.4779                 0.9601                0.9983                    NaN
+classic                        0.9180                   0.9399                  0.6000                    0.5165        0.5474                 0.9235                0.9923                 0.1928
+[   434.8s] per split (conclusions on heldout):
+      split           method  n_change  n_null  AUROC_patch  AUROC_win_mean  TPR@5%FCR_patch     NCR
+0       dev              raw        51      84       0.9181          0.9415           0.5477  0.5534
+1       dev             geoP        51      84       0.9260          0.9422           0.5696  0.4717
+2       dev         localmin        51      84       0.9285          0.9415           0.5869  0.5455
+3       dev  localmin+geoPms        51      84       0.9328          0.9423           0.5962  0.4490
+4       dev              c2f        51      84       0.9322          0.9437           0.5964  0.4661
+5       dev         c2f+radP        51      84       0.9346          0.9468           0.6091  0.4664
+6       dev          classic        51      84       0.9169          0.9392           0.5156  0.5491
+7   heldout              raw        69      94       0.9172          0.9386           0.5237  0.5567
+8   heldout             geoP        69      94       0.9254          0.9427           0.5739  0.4864
+9   heldout         localmin        69      94       0.9339          0.9491           0.6488  0.5558
+10  heldout  localmin+geoPms        69      94       0.9378          0.9508           0.6861  0.4731
+11  heldout              c2f        69      94       0.9369          0.9502           0.6736  0.4891
+12  heldout         c2f+radP        69      94       0.9364          0.9514           0.6606  0.4920
+13  heldout          classic        69      94       0.9187          0.9397           0.5117  0.5461
+[   439.1s] window-AUROC difference vs raw, 95% quadkey-bootstrap CI:
+            method  AUROC_win_mean  diff_vs_raw   ci_lo   ci_hi  P(diff>0)
+0             geoP          0.9433       0.0037  0.0006  0.0072     0.9950
+1         localmin          0.9460       0.0064  0.0002  0.0142     0.9805
+2  localmin+geoPms          0.9475       0.0079 -0.0004  0.0179     0.9690
+3              c2f          0.9478       0.0082 -0.0000  0.0183     0.9745
+4         c2f+radP          0.9498       0.0102  0.0017  0.0208     0.9930
+5          classic          0.9399       0.0003 -0.0037  0.0052     0.5330
+[   439.1s] null-window NCR by off-nadir difference:
+method            c2f  c2f+radP  classic   geoP  localmin  localmin+geoPms    raw
+d_offnadir_bin                                                                   
+(-0.001, 5.0]   0.528     0.532    0.622  0.550     0.603            0.508  0.626
+(10.0, 20.0]    0.567     0.565    0.649  0.589     0.611            0.544  0.654
+(5.0, 10.0]     0.433     0.432    0.467  0.417     0.492            0.422  0.481
+[   439.6s] run closed: FINISHED

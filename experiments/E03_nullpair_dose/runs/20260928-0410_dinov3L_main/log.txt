@@ -1,0 +1,241 @@
+[     7.0s] subspace ranks: {'V_rad': (1024, 56), 'V_rad_g': (1024, 42), 'V_shift': (1024, 32), 'V_shift_g': (1024, 24)}
+[    20.4s]   clean: 16/1024 crops
+[    29.1s]   clean: 32/1024 crops
+[    37.8s]   clean: 48/1024 crops
+[    46.5s]   clean: 64/1024 crops
+[    55.3s]   clean: 80/1024 crops
+[    64.0s]   clean: 96/1024 crops
+[    72.7s]   clean: 112/1024 crops
+[    81.4s]   clean: 128/1024 crops
+[    90.2s]   clean: 144/1024 crops
+[    99.0s]   clean: 160/1024 crops
+[   107.7s]   clean: 176/1024 crops
+[   116.4s]   clean: 192/1024 crops
+[   125.2s]   clean: 208/1024 crops
+[   133.9s]   clean: 224/1024 crops
+[   142.5s]   clean: 240/1024 crops
+[   151.1s]   clean: 256/1024 crops
+[   159.8s]   clean: 272/1024 crops
+[   168.5s]   clean: 288/1024 crops
+[   177.1s]   clean: 304/1024 crops
+[   185.8s]   clean: 320/1024 crops
+[   194.2s]   clean: 336/1024 crops
+[   202.9s]   clean: 352/1024 crops
+[   211.7s]   clean: 368/1024 crops
+[   220.1s]   clean: 384/1024 crops
+[   228.9s]   clean: 400/1024 crops
+[   237.4s]   clean: 416/1024 crops
+[   246.1s]   clean: 432/1024 crops
+[   254.8s]   clean: 448/1024 crops
+[   263.5s]   clean: 464/1024 crops
+[   272.2s]   clean: 480/1024 crops
+[   280.9s]   clean: 496/1024 crops
+[   289.7s]   clean: 512/1024 crops
+[   298.4s]   clean: 528/1024 crops
+[   307.1s]   clean: 544/1024 crops
+[   315.8s]   clean: 560/1024 crops
+[   324.6s]   clean: 576/1024 crops
+[   333.4s]   clean: 592/1024 crops
+[   342.1s]   clean: 608/1024 crops
+[   350.8s]   clean: 624/1024 crops
+[   359.5s]   clean: 640/1024 crops
+[   368.2s]   clean: 656/1024 crops
+[   376.9s]   clean: 672/1024 crops
+[   385.6s]   clean: 688/1024 crops
+[   394.4s]   clean: 704/1024 crops
+[   403.2s]   clean: 720/1024 crops
+[   412.0s]   clean: 736/1024 crops
+[   420.7s]   clean: 752/1024 crops
+[   429.4s]   clean: 768/1024 crops
+[   438.1s]   clean: 784/1024 crops
+[   446.9s]   clean: 800/1024 crops
+[   455.6s]   clean: 816/1024 crops
+[   464.3s]   clean: 832/1024 crops
+[   472.9s]   clean: 848/1024 crops
+[   481.6s]   clean: 864/1024 crops
+[   490.3s]   clean: 880/1024 crops
+[   499.1s]   clean: 896/1024 crops
+[   507.8s]   clean: 912/1024 crops
+[   516.5s]   clean: 928/1024 crops
+[   525.2s]   clean: 944/1024 crops
+[   533.9s]   clean: 960/1024 crops
+[   542.6s]   clean: 976/1024 crops
+[   551.4s]   clean: 992/1024 crops
+[   560.1s]   clean: 1008/1024 crops
+[   568.9s]   clean: 1024/1024 crops
+[   569.0s] calibration done:
+         method  tau_patch  val_patch_F1  tau_R90  val_F1_at_R90  tau_pix  val_pix_F1  val_patch_AUROC
+0           raw     1.2200        0.3915   1.1248         0.3072   1.2380      0.3117           0.8895
+1           geo     1.2175        0.3935   1.1175         0.3104   1.2335      0.3133           0.8906
+2          geoP     1.1750        0.3968   1.0658         0.3141   1.1840      0.3142           0.8911
+3    geo-smooth     1.2202        0.3921   1.1245         0.3085   1.2362      0.3122           0.8899
+4           rad     1.0480        0.3995   0.9428         0.2973   1.0648      0.3274           0.8909
+5       geo+rad     1.0412        0.4007   0.9375         0.3011   1.0605      0.3275           0.8920
+6      geoP+rad     0.9958        0.3987   0.8935         0.3075   1.0125      0.3222           0.8931
+7        shiftV     1.0002        0.2454   0.8858         0.1963   1.0130      0.1903           0.7925
+8   shiftV+gate     1.0972        0.3306   0.9748         0.2495   1.1022      0.2661           0.8580
+9      rad+gate     1.0970        0.4052   0.9948         0.3058   1.1095      0.3343           0.8936
+10     localmin     1.1775        0.3939   1.0210         0.2557   1.1825      0.3031           0.8747
+11         blur     1.2535        0.3953   1.1488         0.3152   1.2715      0.3149           0.8921
+12    phasecorr     1.2200        0.3915   1.1250         0.3075   1.2380      0.3117           0.8895
+13    histmatch     1.2172        0.3752   1.0995         0.2842   1.2305      0.2955           0.8788
+14          rrn     1.2210        0.3914   1.1152         0.3091   1.2240      0.3089           0.8889
+15      classic     1.2205        0.3913   1.1152         0.3091   1.2238      0.3089           0.8889
+16   classic+ns     0.9962        0.4007   0.8908         0.3106   1.0050      0.3222           0.8942
+[   587.5s]   clean: 16/2048 crops
+[   596.2s]   clean: 32/2048 crops
+[   605.0s]   clean: 48/2048 crops
+[   613.8s]   clean: 64/2048 crops
+[   622.5s]   clean: 80/2048 crops
+[   631.3s]   clean: 96/2048 crops
+[   640.0s]   clean: 112/2048 crops
+[   648.7s]   clean: 128/2048 crops
+[   657.4s]   clean: 144/2048 crops
+[   666.2s]   clean: 160/2048 crops
+[   675.0s]   clean: 176/2048 crops
+[   683.7s]   clean: 192/2048 crops
+[   692.5s]   clean: 208/2048 crops
+[   701.2s]   clean: 224/2048 crops
+[   709.9s]   clean: 240/2048 crops
+[   718.6s]   clean: 256/2048 crops
+[   727.3s]   clean: 272/2048 crops
+[   736.0s]   clean: 288/2048 crops
+[   744.7s]   clean: 304/2048 crops
+[   753.4s]   clean: 320/2048 crops
+[   762.1s]   clean: 336/2048 crops
+[   770.8s]   clean: 352/2048 crops
+[   779.5s]   clean: 368/2048 crops
+[   788.2s]   clean: 384/2048 crops
+[   797.0s]   clean: 400/2048 crops
+[   805.7s]   clean: 416/2048 crops
+[   814.4s]   clean: 432/2048 crops
+[   823.2s]   clean: 448/2048 crops
+[   831.8s]   clean: 464/2048 crops
+[   840.5s]   clean: 480/2048 crops
+[   849.2s]   clean: 496/2048 crops
+[   857.9s]   clean: 512/2048 crops
+[   866.6s]   clean: 528/2048 crops
+[   875.4s]   clean: 544/2048 crops
+[   884.1s]   clean: 560/2048 crops
+[   892.9s]   clean: 576/2048 crops
+[   901.8s]   clean: 592/2048 crops
+[   910.5s]   clean: 608/2048 crops
+[   919.3s]   clean: 624/2048 crops
+[   928.1s]   clean: 640/2048 crops
+[   936.9s]   clean: 656/2048 crops
+[   945.6s]   clean: 672/2048 crops
+[   954.3s]   clean: 688/2048 crops
+[   963.1s]   clean: 704/2048 crops
+[   971.9s]   clean: 720/2048 crops
+[   980.6s]   clean: 736/2048 crops
+[   989.4s]   clean: 752/2048 crops
+[   998.2s]   clean: 768/2048 crops
+[  1007.0s]   clean: 784/2048 crops
+[  1015.7s]   clean: 800/2048 crops
+[  1024.5s]   clean: 816/2048 crops
+[  1033.3s]   clean: 832/2048 crops
+[  1042.2s]   clean: 848/2048 crops
+[  1050.9s]   clean: 864/2048 crops
+[  1059.7s]   clean: 880/2048 crops
+[  1068.4s]   clean: 896/2048 crops
+[  1077.2s]   clean: 912/2048 crops
+[  1085.9s]   clean: 928/2048 crops
+[  1094.7s]   clean: 944/2048 crops
+[  1103.4s]   clean: 960/2048 crops
+[  1112.1s]   clean: 976/2048 crops
+[  1120.8s]   clean: 992/2048 crops
+[  1129.6s]   clean: 1008/2048 crops
+[  1138.3s]   clean: 1024/2048 crops
+[  1147.0s]   clean: 1040/2048 crops
+[  1155.8s]   clean: 1056/2048 crops
+[  1164.5s]   clean: 1072/2048 crops
+[  1173.3s]   clean: 1088/2048 crops
+[  1182.2s]   clean: 1104/2048 crops
+[  1191.1s]   clean: 1120/2048 crops
+[  1200.1s]   clean: 1136/2048 crops
+[  1209.0s]   clean: 1152/2048 crops
+[  1218.0s]   clean: 1168/2048 crops
+[  1227.0s]   clean: 1184/2048 crops
+[  1235.6s]   clean: 1200/2048 crops
+[  1244.3s]   clean: 1216/2048 crops
+[  1253.1s]   clean: 1232/2048 crops
+[  1261.8s]   clean: 1248/2048 crops
+[  1270.6s]   clean: 1264/2048 crops
+[  1279.4s]   clean: 1280/2048 crops
+[  1288.2s]   clean: 1296/2048 crops
+[  1297.0s]   clean: 1312/2048 crops
+[  1305.6s]   clean: 1328/2048 crops
+[  1314.5s]   clean: 1344/2048 crops
+[  1323.7s]   clean: 1360/2048 crops
+[  1332.3s]   clean: 1376/2048 crops
+[  1341.0s]   clean: 1392/2048 crops
+[  1349.7s]   clean: 1408/2048 crops
+[  1358.4s]   clean: 1424/2048 crops
+[  1367.0s]   clean: 1440/2048 crops
+[  1375.8s]   clean: 1456/2048 crops
+[  1384.4s]   clean: 1472/2048 crops
+[  1393.1s]   clean: 1488/2048 crops
+[  1401.8s]   clean: 1504/2048 crops
+[  1410.8s]   clean: 1520/2048 crops
+[  1420.2s]   clean: 1536/2048 crops
+[  1429.1s]   clean: 1552/2048 crops
+[  1438.0s]   clean: 1568/2048 crops
+[  1446.9s]   clean: 1584/2048 crops
+[  1457.7s]   clean: 1600/2048 crops
+[  1467.3s]   clean: 1616/2048 crops
+[  1476.3s]   clean: 1632/2048 crops
+[  1485.2s]   clean: 1648/2048 crops
+[  1494.0s]   clean: 1664/2048 crops
+[  1502.9s]   clean: 1680/2048 crops
+[  1511.8s]   clean: 1696/2048 crops
+[  1521.5s]   clean: 1712/2048 crops
+[  1531.5s]   clean: 1728/2048 crops
+[  1540.5s]   clean: 1744/2048 crops
+[  1549.9s]   clean: 1760/2048 crops
+[  1560.4s]   clean: 1776/2048 crops
+[  1569.3s]   clean: 1792/2048 crops
+[  1578.1s]   clean: 1808/2048 crops
+[  1587.0s]   clean: 1824/2048 crops
+[  1596.1s]   clean: 1840/2048 crops
+[  1605.1s]   clean: 1856/2048 crops
+[  1613.8s]   clean: 1872/2048 crops
+[  1622.7s]   clean: 1888/2048 crops
+[  1631.6s]   clean: 1904/2048 crops
+[  1640.5s]   clean: 1920/2048 crops
+[  1649.3s]   clean: 1936/2048 crops
+[  1658.2s]   clean: 1952/2048 crops
+[  1667.1s]   clean: 1968/2048 crops
+[  1676.0s]   clean: 1984/2048 crops
+[  1684.9s]   clean: 2000/2048 crops
+[  1693.7s]   clean: 2016/2048 crops
+[  1702.7s]   clean: 2032/2048 crops
+[  1711.5s]   clean: 2048/2048 crops
+[  1712.7s] clean test:
+         method  patch_F1  patch_P  patch_R  patch_AUROC  pix_F1  pix_IoU  pix_AUROC  FPR_real_unchanged_patches  patch_F1_at_R90  recall_at_R90  FPR_real_unchanged_at_R90  median_score_true_change  median_score_real_unchanged
+0           raw    0.4090   0.2945   0.6695       0.8731  0.3149   0.1868     0.8692                      0.1264           0.3287         0.8929                     0.2789                    1.2598                       1.0232
+1           geo    0.4124   0.2999   0.6601       0.8744  0.3165   0.1880     0.8703                      0.1214           0.3315         0.8922                     0.2750                    1.2552                       1.0112
+2          geoP    0.4146   0.3032   0.6552       0.8766  0.3197   0.1903     0.8723                      0.1186           0.3352         0.8923                     0.2704                    1.2155                       0.9502
+3    geo-smooth    0.4099   0.2959   0.6667       0.8736  0.3159   0.1876     0.8697                      0.1250           0.3298         0.8927                     0.2774                    1.2592                       1.0220
+4           rad    0.3895   0.3151   0.5097       0.8703  0.2954   0.1733     0.8663                      0.0873           0.3255         0.8784                     0.2773                    1.0500                       0.8565
+5       geo+rad    0.3923   0.3151   0.5196       0.8717  0.2961   0.1738     0.8673                      0.0890           0.3287         0.8775                     0.2727                    1.0450                       0.8478
+6      geoP+rad    0.3968   0.3117   0.5458       0.8746  0.3021   0.1779     0.8698                      0.0949           0.3357         0.8826                     0.2659                    1.0055                       0.7960
+7        shiftV    0.2541   0.1676   0.5256       0.7690  0.1893   0.1046     0.7642                      0.2057           0.2219         0.8896                     0.4827                    1.0068                       0.8790
+8   shiftV+gate    0.3260   0.2454   0.4854       0.8307  0.2507   0.1433     0.8277                      0.1176           0.2701         0.8833                     0.3670                    1.0935                       0.9228
+9      rad+gate    0.3954   0.3254   0.5040       0.8723  0.3032   0.1787     0.8699                      0.0823           0.3315         0.8764                     0.2687                    1.0978                       0.9032
+10     localmin    0.4029   0.3083   0.5815       0.8616  0.3032   0.1787     0.8525                      0.1028           0.2793         0.9053                     0.3606                    1.2002                       0.9652
+11         blur    0.4091   0.3007   0.6397       0.8749  0.3110   0.1841     0.8697                      0.1172           0.3334         0.8938                     0.2732                    1.2860                       1.0363
+12    phasecorr    0.4091   0.2945   0.6696       0.8731  0.3149   0.1868     0.8692                      0.1264           0.3290         0.8927                     0.2784                    1.2598                       1.0232
+13    histmatch    0.3891   0.2868   0.6046       0.8608  0.2982   0.1752     0.8573                      0.1185           0.3050         0.8892                     0.3106                    1.2430                       1.0108
+14          rrn    0.4118   0.3033   0.6410       0.8752  0.3182   0.1892     0.8707                      0.1160           0.3299         0.8949                     0.2782                    1.2548                       1.0105
+15      classic    0.4120   0.3031   0.6433       0.8752  0.3182   0.1892     0.8707                      0.1165           0.3298         0.8949                     0.2782                    1.2548                       1.0105
+16   classic+ns    0.4007   0.3199   0.5362       0.8766  0.3086   0.1824     0.8717                      0.0898           0.3367         0.8815                     0.2643                    1.0038                       0.7912
+[  1890.6s]   null: 16/512 crops
+[  2064.6s]   null: 32/512 crops
+[  2226.9s]   null: 48/512 crops
+[  2400.9s]   null: 64/512 crops
+[  2573.7s]   null: 80/512 crops
+[  2747.3s]   null: 96/512 crops
+[  2921.1s]   null: 112/512 crops
+[  3094.4s]   null: 128/512 crops
+[  3270.0s]   null: 144/512 crops
+[  3444.2s]   null: 160/512 crops

@@ -1,0 +1,112 @@
+margin_px: 64
+families:
+  G1_shift:
+    kind: geo
+    unit: px (|d|, random direction)
+    doses:
+    - 0
+    - 0.25
+    - 0.5
+    - 1.0
+    - 2.0
+    - 4.0
+  G2_field:
+    kind: geo
+    unit: px RMS, zero-mean smooth field (L=32 px)
+    doses:
+    - 0
+    - 0.25
+    - 0.5
+    - 1.0
+    - 2.0
+    - 4.0
+  G3_parallax:
+    kind: geo
+    unit: px max roof displacement
+    doses:
+    - 0
+    - 0.5
+    - 1.0
+    - 2.0
+    - 4.0
+    - 8.0
+  R1_gain:
+    kind: rad
+    unit: '|g-1|'
+    doses:
+    - 0
+    - 0.02
+    - 0.05
+    - 0.1
+    - 0.2
+    - 0.3
+  R2_gamma:
+    kind: rad
+    unit: '|log gamma|'
+    doses:
+    - 0
+    - 0.05
+    - 0.1
+    - 0.2
+    - 0.3
+    - 0.5
+  R3_haze:
+    kind: rad
+    unit: optical depth (green), Rayleigh-weighted, spatial ramp
+    doses:
+    - 0
+    - 0.02
+    - 0.05
+    - 0.1
+    - 0.2
+    - 0.3
+  R4_colour:
+    kind: rad
+    unit: delta of 3x3 mixing matrix I + delta*U(-1,1)
+    doses:
+    - 0
+    - 0.02
+    - 0.05
+    - 0.1
+    - 0.2
+    - 0.3
+  R5_jpeg:
+    kind: rad
+    unit: JPEG quality (lower = stronger)
+    doses:
+    - null
+    - 90
+    - 75
+    - 50
+    - 30
+    - 15
+  R6_noise:
+    kind: rad
+    unit: Gaussian sigma (0-1 scale)
+    doses:
+    - 0
+    - 0.005
+    - 0.01
+    - 0.02
+    - 0.04
+    - 0.08
+  R7_blur:
+    kind: rad
+    unit: Gaussian PSF sigma (px)
+    doses:
+    - 0
+    - 0.3
+    - 0.5
+    - 0.8
+    - 1.2
+    - 2.0
+  C1_compound:
+    kind: mix
+    unit: dose index of G2/R4/R6
+    doses:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5

@@ -1,0 +1,22 @@
+{
+  "eps_star": 0.5,
+  "rel_err_at_1px": 1.0056340361455425,
+  "resid_after_geo_at_1px": 0.7693108911805931,
+  "H1_pass": 0.0,
+  "eps_consistency_cos2_eps0.25": 0.2620320115238428,
+  "eps_norm_ratio_eps0.25": 2.070419028401375,
+  "eps_consistency_cos2_eps0.5": 0.5390153378248215,
+  "eps_norm_ratio_eps0.5": 1.4634190052747726,
+  "eps_consistency_cos2_eps1.0": 1.0,
+  "eps_norm_ratio_eps1.0": 1.0,
+  "eps_consistency_cos2_eps2.0": 0.4615169372409582,
+  "eps_norm_ratio_eps2.0": 0.7233210578560829,
+  "mean_dz_norm_d0.25": 0.07345487782731652,
+  "mean_dz_norm_d0.5": 0.1275239884853363,
+  "mean_dz_norm_d1.0": 0.16717091482132673,
+  "mean_dz_norm_d2.0": 0.22389350924640894,
+  "mean_dz_norm_d4.0": 0.3240798320621252,
+  "mean_r_norm_true_change": 1.0303367279938525,
+  "mean_r_norm_unchanged_real": 0.7900440972986933,
+  "_wallclock_s": 188.9
+}

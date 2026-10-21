@@ -1,0 +1,31 @@
+{
+  "tag": null,
+  "encoder": "dinov3_vitl16_sat",
+  "layer": -1,
+  "n": 256,
+  "batch": 16,
+  "mags": "0.5,1,2",
+  "ndir": 8,
+  "ranks": [
+    2,
+    4,
+    8,
+    12,
+    16,
+    24
+  ],
+  "test_mags": [
+    0.25,
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    3.0,
+    4.0
+  ],
+  "split": "val",
+  "_git": "6563eda",
+  "_python": "3.13.5",
+  "_host": "alia",
+  "_tag": "dinov3L_L-1_probe8x3"
+}

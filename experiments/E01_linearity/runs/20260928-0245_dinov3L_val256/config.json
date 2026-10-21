@@ -1,0 +1,32 @@
+{
+  "tag": "dinov3L_val256",
+  "encoder": "dinov3_vitl16_sat",
+  "layer": -1,
+  "n": 256,
+  "batch": 16,
+  "eps": [
+    0.25,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "d": [
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "dirs": [
+    "x",
+    "y",
+    "diag"
+  ],
+  "split": "val",
+  "subset": "subset_val256_fit.csv",
+  "kill_criterion": "rel_err(J d vs dz) > 0.6 at d=1 px for best eps",
+  "_git": "6563eda",
+  "_python": "3.13.5",
+  "_host": "alia",
+  "_tag": "dinov3L_val256"
+}

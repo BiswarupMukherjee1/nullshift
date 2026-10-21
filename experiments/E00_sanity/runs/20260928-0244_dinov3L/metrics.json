@@ -1,0 +1,23 @@
+{
+  "noise_floor/max_abs_b32_vs_b8": 8.940696716308594e-08,
+  "noise_floor/mean_rnorm_b32_vs_b8": 1.555988937695929e-08,
+  "noise_floor/mean_rnorm_b32_vs_single": 0.0015576838050037622,
+  "noise_floor/mean_rnorm_b32_vs_reversed_order": 0.0,
+  "noise_floor/repeat_identical_call_max_abs": 0.0,
+  "fourier_shift0_maxabs": 3.4540272465444417e-16,
+  "fourier_shift_int_vs_roll_center_maxabs": 3.947459672522534e-16,
+  "J_finite": 1.0,
+  "J_mean_col_norm": 0.1317874789237976,
+  "geo_removed_frac_random_vectors": 0.0019510984420776367,
+  "geo_chance_level": 0.001953125,
+  "throughput_img_per_s_bs16": 85.54212201845095,
+  "throughput_img_per_s_bs32": 89.29997468394014,
+  "throughput_img_per_s_bs64": 91.1012877556731,
+  "peak_gpu_mem_GB": 2.357904896,
+  "raw_val256_patch_AUROC": 0.8800570373926763,
+  "raw_val256_best_patch_F1": 0.37887314394196214,
+  "raw_val256_tau": 1.2197500000000001,
+  "n_pos_patches": 4086,
+  "n_neg_patches": 59595,
+  "_wallclock_s": 31.7
+}

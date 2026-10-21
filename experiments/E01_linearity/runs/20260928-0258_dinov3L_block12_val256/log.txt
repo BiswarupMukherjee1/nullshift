@@ -1,0 +1,19 @@
+[    16.2s] gradient-energy tercile cuts: [0.004083333071321249, 0.011434653773903847]
+[    27.3s] 16/256 crops
+[    38.0s] 32/256 crops
+[    48.6s] 48/256 crops
+[    59.3s] 64/256 crops
+[    69.9s] 80/256 crops
+[    80.5s] 96/256 crops
+[    91.2s] 112/256 crops
+[   101.8s] 128/256 crops
+[   112.4s] 144/256 crops
+[   123.1s] 160/256 crops
+[   133.7s] 176/256 crops
+[   144.5s] 192/256 crops
+[   155.1s] 208/256 crops
+[   165.8s] 224/256 crops
+[   176.4s] 240/256 crops
+[   187.1s] 256/256 crops
+[   187.4s] eps*=0.5  rel_err@1px=1.006  resid_after_geo@1px=0.769  H1 FAIL
+[   188.9s] run closed: FINISHED

@@ -1,0 +1,15 @@
+{
+  "tag": "dinov3L_test192_radP",
+  "eps": 1.0,
+  "encoder": "dinov3_vitl16_sat",
+  "layer": -1,
+  "subspaces": "dinov3_vitl16_sat_L-1_kf8_ks16.pt",
+  "tau_pr": 0.5,
+  "n": 192,
+  "batch": 16,
+  "kill": "selectivity(geo, misregistration vs true change) ~ 1",
+  "_git": "47e9960",
+  "_python": "3.13.5",
+  "_host": "moneo",
+  "_tag": "dinov3L_test192_radP"
+}

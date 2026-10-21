@@ -1,0 +1,76 @@
+{
+  "tag": "dinov3L_main",
+  "e03_run": "experiments/E03_nullpair_dose/runs/20260928-1842_dinov3L_main",
+  "eps": 1.0,
+  "subspaces": "dinov3_vitl16_sat_L-1_kf8_ks16.pt",
+  "methods": [
+    "raw",
+    "geo",
+    "geoP",
+    "rad",
+    "geoP+rad",
+    "phasecorr",
+    "classic",
+    "classic+ns"
+  ],
+  "conds": [
+    [
+      "G1_shift",
+      2
+    ],
+    [
+      "G1_shift",
+      3
+    ],
+    [
+      "G2_field",
+      3
+    ],
+    [
+      "G2_field",
+      4
+    ],
+    [
+      "G3_parallax",
+      3
+    ],
+    [
+      "G3_parallax",
+      4
+    ],
+    [
+      "C1_compound",
+      2
+    ],
+    [
+      "C1_compound",
+      3
+    ],
+    [
+      "R3_haze",
+      3
+    ],
+    [
+      "R4_colour",
+      3
+    ],
+    [
+      "R5_jpeg",
+      3
+    ],
+    [
+      "R6_noise",
+      3
+    ],
+    [
+      "R7_blur",
+      3
+    ]
+  ],
+  "boot": 2000,
+  "batch": 16,
+  "_git": "28c28e9",
+  "_python": "3.13.5",
+  "_host": "moneo",
+  "_tag": "dinov3L_main"
+}

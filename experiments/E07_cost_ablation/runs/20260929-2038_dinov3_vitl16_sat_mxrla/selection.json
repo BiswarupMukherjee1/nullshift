@@ -1,0 +1,4 @@
+{
+  "chosen": "c2f_K24_r8_s2",
+  "rule": "cheapest c2f within 0.5 pt of best on dev"
+}

@@ -1,0 +1,5 @@
+ViT-B web, paired quadkey bootstrap B=400, patch-level:
+  localmin+geoPms - localmin: dAUROC +0.0112 [+0.0057,+0.0172] | dNCR -0.0765 [-0.0828,-0.0688]
+  localmin+geoPms - localmin1: dAUROC +0.0130 [+0.0074,+0.0191] | dNCR -0.0763 [-0.0822,-0.0680]
+  localmin+geoPms - raw: dAUROC +0.0341 [+0.0197,+0.0490] | dNCR -0.1229 [-0.1368,-0.1084]
+landscape-matched: {'raw': 0.9162, 'localmin': 0.9391, 'geoPms': 0.945, 'localmin+geoPms': 0.9524}

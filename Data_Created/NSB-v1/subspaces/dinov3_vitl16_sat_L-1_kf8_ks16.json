@@ -1,0 +1,82 @@
+{
+  "encoder": "dinov3_vitl16_sat",
+  "layer": -1,
+  "kf": 8,
+  "kshift": 16,
+  "n_fit_crops": 256,
+  "families": {
+    "R1_gain": {
+      "k": 8,
+      "energy_captured_topk": 0.24187126755714417,
+      "energy_top1": 0.12442590296268463,
+      "mean_sq_disp": 0.0037561978679150343
+    },
+    "R2_gamma": {
+      "k": 8,
+      "energy_captured_topk": 0.37123870849609375,
+      "energy_top1": 0.20899662375450134,
+      "mean_sq_disp": 0.022105099633336067
+    },
+    "R3_haze": {
+      "k": 8,
+      "energy_captured_topk": 0.37601420283317566,
+      "energy_top1": 0.19407278299331665,
+      "mean_sq_disp": 0.16483646631240845
+    },
+    "R4_colour": {
+      "k": 8,
+      "energy_captured_topk": 0.3137967586517334,
+      "energy_top1": 0.12087338417768478,
+      "mean_sq_disp": 0.1177336722612381
+    },
+    "R5_jpeg": {
+      "k": 8,
+      "energy_captured_topk": 0.19080045819282532,
+      "energy_top1": 0.08100669085979462,
+      "mean_sq_disp": 0.17952263355255127
+    },
+    "R6_noise": {
+      "k": 8,
+      "energy_captured_topk": 0.3257959187030792,
+      "energy_top1": 0.1718813180923462,
+      "mean_sq_disp": 0.3025929033756256
+    },
+    "R7_blur": {
+      "k": 8,
+      "energy_captured_topk": 0.3249759376049042,
+      "energy_top1": 0.19591714441776276,
+      "mean_sq_disp": 0.1437925547361374
+    },
+    "G1_shift": {
+      "k": 16,
+      "energy_captured_topk": 0.20118188858032227,
+      "energy_top1": 0.027974581345915794,
+      "mean_sq_disp": 0.06354517489671707
+    },
+    "G2_field": {
+      "k": 16,
+      "energy_captured_topk": 0.23796071112155914,
+      "energy_top1": 0.06518608331680298,
+      "mean_sq_disp": 0.07675610482692719
+    }
+  },
+  "rank_V_rad": 56,
+  "rank_V_shift": 32,
+  "rank_V_rad_g": 42,
+  "rank_V_shift_g": 24,
+  "rho_rad_quartiles": [
+    0.1342688649892807,
+    0.3605571538209915,
+    0.44763167202472687,
+    0.530753567814827,
+    0.6905216574668884
+  ],
+  "rho_shift_quartiles": [
+    0.17240098118782043,
+    0.31402213871479034,
+    0.3689420521259308,
+    0.42666300386190414,
+    0.72987961769104
+  ],
+  "principal_cos_rad_vs_shift_max": 0.9932807087898254
+}

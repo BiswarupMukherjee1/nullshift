@@ -1,0 +1,11 @@
+nullshift-venv/
+data/
+models/
+mlops/
+.tmp/
+.tmp_install.log
+__pycache__/
+*.pyc
+papers/*.pdf
+Data_Created/MXR-LA-v1/images/
+*.npz

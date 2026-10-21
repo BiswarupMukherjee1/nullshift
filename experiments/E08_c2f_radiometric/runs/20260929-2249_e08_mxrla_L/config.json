@@ -1,0 +1,31 @@
+{
+  "tag": "e08_mxrla_L",
+  "methods": [
+    "raw",
+    "localmin",
+    "localmin+geoPms",
+    "c2f",
+    "c2f+radP",
+    "c2f+rad",
+    "geoP+radP"
+  ],
+  "e03_run": "experiments/E03_nullpair_dose/runs/20260928-1842_dinov3L_main",
+  "eps": 1.0,
+  "subspaces": "dinov3_vitl16_sat_L-1_kf8_ks16.pt",
+  "encoder": "dinov3_vitl16_sat",
+  "extra_methods": "",
+  "experiment": "E08_c2f_radiometric",
+  "batch": 16,
+  "boot": 2000,
+  "n_pairs": 578,
+  "counts": {
+    "change": 200,
+    "null_post": 150,
+    "null_pre": 128,
+    "null_long": 100
+  },
+  "_git": "56b5d1a",
+  "_python": "3.13.5",
+  "_host": "alia",
+  "_tag": "e08_mxrla_L"
+}

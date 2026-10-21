@@ -1,0 +1,172 @@
+{
+  "raw": {
+    "patch_bin": 4880,
+    "patch_tau": 1.22,
+    "pix_bin": 4952,
+    "pix_tau": 1.238,
+    "r90_bin": 4499,
+    "r90_tau": 1.12475,
+    "r99_bin": 3729,
+    "r99_tau": 0.93225
+  },
+  "geo": {
+    "patch_bin": 4870,
+    "patch_tau": 1.2175,
+    "pix_bin": 4934,
+    "pix_tau": 1.2335,
+    "r90_bin": 4470,
+    "r90_tau": 1.1175,
+    "r99_bin": 3678,
+    "r99_tau": 0.9195
+  },
+  "geoP": {
+    "patch_bin": 4700,
+    "patch_tau": 1.175,
+    "pix_bin": 4736,
+    "pix_tau": 1.184,
+    "r90_bin": 4263,
+    "r90_tau": 1.06575,
+    "r99_bin": 3433,
+    "r99_tau": 0.8582500000000001
+  },
+  "geo-smooth": {
+    "patch_bin": 4881,
+    "patch_tau": 1.22025,
+    "pix_bin": 4945,
+    "pix_tau": 1.23625,
+    "r90_bin": 4498,
+    "r90_tau": 1.1245,
+    "r99_bin": 3718,
+    "r99_tau": 0.9295
+  },
+  "rad": {
+    "patch_bin": 4192,
+    "patch_tau": 1.048,
+    "pix_bin": 4259,
+    "pix_tau": 1.06475,
+    "r90_bin": 3771,
+    "r90_tau": 0.94275,
+    "r99_bin": 3195,
+    "r99_tau": 0.7987500000000001
+  },
+  "geo+rad": {
+    "patch_bin": 4165,
+    "patch_tau": 1.04125,
+    "pix_bin": 4242,
+    "pix_tau": 1.0605,
+    "r90_bin": 3750,
+    "r90_tau": 0.9375,
+    "r99_bin": 3168,
+    "r99_tau": 0.792
+  },
+  "geoP+rad": {
+    "patch_bin": 3983,
+    "patch_tau": 0.99575,
+    "pix_bin": 4050,
+    "pix_tau": 1.0125,
+    "r90_bin": 3574,
+    "r90_tau": 0.8935000000000001,
+    "r99_bin": 2947,
+    "r99_tau": 0.73675
+  },
+  "shiftV": {
+    "patch_bin": 4001,
+    "patch_tau": 1.00025,
+    "pix_bin": 4052,
+    "pix_tau": 1.0130000000000001,
+    "r90_bin": 3543,
+    "r90_tau": 0.88575,
+    "r99_bin": 3129,
+    "r99_tau": 0.78225
+  },
+  "shiftV+gate": {
+    "patch_bin": 4389,
+    "patch_tau": 1.09725,
+    "pix_bin": 4409,
+    "pix_tau": 1.10225,
+    "r90_bin": 3899,
+    "r90_tau": 0.97475,
+    "r99_bin": 3385,
+    "r99_tau": 0.8462500000000001
+  },
+  "rad+gate": {
+    "patch_bin": 4388,
+    "patch_tau": 1.097,
+    "pix_bin": 4438,
+    "pix_tau": 1.1095,
+    "r90_bin": 3979,
+    "r90_tau": 0.99475,
+    "r99_bin": 3356,
+    "r99_tau": 0.839
+  },
+  "localmin": {
+    "patch_bin": 4710,
+    "patch_tau": 1.1775,
+    "pix_bin": 4730,
+    "pix_tau": 1.1825,
+    "r90_bin": 4084,
+    "r90_tau": 1.0210000000000001,
+    "r99_bin": 3375,
+    "r99_tau": 0.84375
+  },
+  "blur": {
+    "patch_bin": 5014,
+    "patch_tau": 1.2535,
+    "pix_bin": 5086,
+    "pix_tau": 1.2715,
+    "r90_bin": 4595,
+    "r90_tau": 1.14875,
+    "r99_bin": 3777,
+    "r99_tau": 0.94425
+  },
+  "phasecorr": {
+    "patch_bin": 4880,
+    "patch_tau": 1.22,
+    "pix_bin": 4952,
+    "pix_tau": 1.238,
+    "r90_bin": 4500,
+    "r90_tau": 1.125,
+    "r99_bin": 3729,
+    "r99_tau": 0.93225
+  },
+  "histmatch": {
+    "patch_bin": 4869,
+    "patch_tau": 1.21725,
+    "pix_bin": 4922,
+    "pix_tau": 1.2305,
+    "r90_bin": 4398,
+    "r90_tau": 1.0995,
+    "r99_bin": 3625,
+    "r99_tau": 0.90625
+  },
+  "rrn": {
+    "patch_bin": 4884,
+    "patch_tau": 1.221,
+    "pix_bin": 4896,
+    "pix_tau": 1.224,
+    "r90_bin": 4461,
+    "r90_tau": 1.11525,
+    "r99_bin": 3682,
+    "r99_tau": 0.9205
+  },
+  "classic": {
+    "patch_bin": 4882,
+    "patch_tau": 1.2205,
+    "pix_bin": 4895,
+    "pix_tau": 1.2237500000000001,
+    "r90_bin": 4461,
+    "r90_tau": 1.11525,
+    "r99_bin": 3682,
+    "r99_tau": 0.9205
+  },
+  "classic+ns": {
+    "patch_bin": 3985,
+    "patch_tau": 0.99625,
+    "pix_bin": 4020,
+    "pix_tau": 1.0050000000000001,
+    "r90_bin": 3563,
+    "r90_tau": 0.89075,
+    "r99_bin": 2920,
+    "r99_tau": 0.73
+  }
+}
