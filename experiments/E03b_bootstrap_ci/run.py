@@ -5,7 +5,7 @@ on the same NSB-v1 test512 null pairs (same seeds, same thresholds from the E03 
 FCR_R99 (fraction of the tile's 256 patches above tau_R99) and the tile's median score. 95 % CIs by resampling the
 128 test SCENES with replacement (tiles of a scene are correlated), 2000 bootstrap draws. Paired differences vs raw and
 vs classic are bootstrapped jointly (same resample) so CIs of differences are valid.
-Usage: PYTHONPATH=src nullshift-venv/bin/python experiments/E03b_bootstrap_ci/run.py --e03-run <dir> --eps 1.0
+Usage: PYTHONPATH=src python experiments/E03b_bootstrap_ci/run.py --e03-run <dir> --eps 1.0
 """
 import argparse
 import json

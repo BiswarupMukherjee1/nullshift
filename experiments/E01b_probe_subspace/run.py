@@ -1,11 +1,11 @@
-"""E01b — Pre-registered fallback after H1 failed (E01): per-patch PROBE subspace instead of first-order tangent.
+"""E01b — Fallback after the first-order model failed (E01): per-patch PROBE subspace instead of first-order tangent.
 
 Probe subspace U_r(p) = top-r left singular vectors of D(p) = [f(shift(I, d_j)) - f(I)]_{j=1..K} (secant directions of
 the shift manifold, no linearity assumed). Compared with: tangent (rank 2, eps=1) and multi-scale tangent (eps 0.5/1/2,
-rank 6, the proposal's fallback). Evaluated on HELD-OUT displacements: random-direction global shifts at magnitudes
+rank 6, the planned fallback). Evaluated on HELD-OUT displacements: random-direction global shifts at magnitudes
 incl. between probe rings, and smooth displacement fields (G2). Selectivity against true-change / real-unchanged
 residuals of real pairs. LEVIR val only (this selects the operator used on test).
-Usage: PYTHONPATH=src nullshift-venv/bin/python experiments/E01b_probe_subspace/run.py [--layer -1]
+Usage: PYTHONPATH=src python experiments/E01b_probe_subspace/run.py [--layer -1]
 """
 import argparse
 import math

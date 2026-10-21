@@ -3,7 +3,7 @@
 For clean val images x: dz(d) = f(shift(x, d u)) - f(x) vs first-order prediction J_eps (d u), J_eps from central
 differences with step eps. Also: fraction of dz energy left after the geo projection (what the operator cannot remove),
 consistency of span(J_eps) across eps (issues-file diagnostic), stratification by patch gradient energy.
-Runs on LEVIR val (it selects eps*). Usage: PYTHONPATH=src nullshift-venv/bin/python experiments/E01_linearity/run.py
+Runs on LEVIR val (it selects eps*). Usage: PYTHONPATH=src python experiments/E01_linearity/run.py
 """
 import argparse
 import math

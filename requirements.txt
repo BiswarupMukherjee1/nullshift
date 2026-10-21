@@ -1,4 +1,4 @@
-# NullShift environment (Python 3.13, CUDA 13 driver). Pin loosely; exact versions frozen in requirements.lock.txt
+# Python 3.13, CUDA 13 driver. Loose pins; exact versions in requirements.lock.txt
 torch
 torchvision
 timm>=1.0.20
@@ -7,6 +7,7 @@ safetensors
 numpy
 scipy
 scikit-image
+scikit-learn
 pillow
 matplotlib
 pandas

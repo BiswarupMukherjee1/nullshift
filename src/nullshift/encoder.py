@@ -18,7 +18,7 @@ class Encoder(torch.nn.Module):
         super().__init__()
         self.name, self.layer, self.l2 = name, layer, l2
         arch = ENCODERS[name]
-        local = paths.MODELS / f"{arch}.fp16.safetensors"      # storage budget: fp16 copy (0.6 GB) instead of fp32 HF cache
+        local = paths.MODELS / f"{arch}.fp16.safetensors"      # fp16 local copy (0.6 GB) instead of the fp32 HF cache
         if local.exists():
             self.model = timm.create_model(arch.split(".")[0], pretrained=False, num_classes=0)
             self.model.load_state_dict({k: v.float() for k, v in load_file(str(local)).items()}, strict=True)

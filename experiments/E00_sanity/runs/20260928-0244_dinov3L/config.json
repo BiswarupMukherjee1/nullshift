@@ -1,8 +1,0 @@
-{
-  "encoder": "dinov3_vitl16_sat",
-  "layer": -1,
-  "_git": "6563eda",
-  "_python": "3.13.5",
-  "_host": "alia",
-  "_tag": "dinov3L"
-}

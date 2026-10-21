@@ -16,7 +16,7 @@ Pair types (window label, no manual annotation):
   change    : pre (<= 2025-01-01) vs post (>= 2025-01-09), window fully inside a burn perimeter (Palisades / Eaton)
 Windows: 192 m (384 px at 0.5 m = 256 evaluated + 64 margin), antialiased 'average' resampling from 0.305 m, identical
 for both dates. Validity: < 0.5 % black (outside footprint) and mean brightness < 0.8 (cloud/haze screen) on both.
-Usage (network-bound, launch detached): scripts/launch.sh mxr nullshift-venv/bin/python scripts/create_maxar_la.py
+Usage: PYTHONPATH=src python scripts/create_maxar_la.py   (network-bound, ~1 h)
 """
 import json
 import os

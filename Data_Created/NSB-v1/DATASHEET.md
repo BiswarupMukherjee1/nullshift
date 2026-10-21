@@ -57,4 +57,4 @@ imagery**; NSB-v1 manifests reference it by id only.
   0.0009 (mean |Δ|) vs 0.0216 with a 3-px grid offset. R5 therefore uses a random grid offset; aligned re-encoding
   would make the dose non-monotonic (observed in the first NSB build and fixed before any experiment).
 - Null pairs favour methods whose tangent is estimated with the same interpolator (G1); G2/G3 use a different
-  interpolator (bicubic) on purpose, and real misregistration (S2Looking, Phase 2) is the decisive test.
+  interpolator (bicubic) on purpose, and real misregistration (the real Maxar pairs, MXR-LA-v1 / MXR-TX-v1) is the decisive test.

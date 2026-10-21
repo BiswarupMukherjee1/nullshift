@@ -3,7 +3,7 @@
 Stage 1  calibration  : clean LEVIR val (1024 crops) -> per-method thresholds tau* (patch-F1 and pixel-F1 optimal).
 Stage 2  clean test   : clean LEVIR test (2048 crops, or --n-test) -> patch/pixel F1 at tau*, AUROC.
 Stage 3  null pairs   : NSB-v1 test512 x 11 families x 5 doses -> FCR@tau*, AUROC(true change vs null).
-Usage: PYTHONPATH=src nullshift-venv/bin/python experiments/E03_nullpair_dose/run.py --eps <eps* from E01>
+Usage: PYTHONPATH=src python experiments/E03_nullpair_dose/run.py --eps <eps* from E01>
 """
 import argparse
 import json

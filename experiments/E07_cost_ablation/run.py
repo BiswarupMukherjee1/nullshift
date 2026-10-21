@@ -3,7 +3,7 @@ The 40 probe responses (8 directions x rings {0.5,1,2,4,8} px) of each reference
 uses a subset of them, so variants differ only in design (probe rings K, rank r, search radius), not in noise.
 Selection rule (fixed before running): on the DEV split choose the cheapest variant within 0.5 pt patch-AUROC of the
 best; report it on HELDOUT. Cost = extra encoder passes of the reference (K) + 1 target pass.
-Usage: scripts/launch.sh e07 nullshift-venv/bin/python experiments/E07_cost_ablation/run.py [--encoder ...]
+Usage: PYTHONPATH=src python experiments/E07_cost_ablation/run.py [--encoder ...]
 """
 import argparse
 import hashlib

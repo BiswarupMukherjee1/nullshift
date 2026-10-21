@@ -13,7 +13,7 @@ from . import baselines as bl
 from . import operators as op
 from .nuisance import MARGIN, center_crop, gaussian_blur
 
-# geoP = per-patch probe subspace (E01b fallback after H1 failed); geo = the proposal's rank-2 tangent (kept for honesty).
+# geoP = per-patch probe subspace; geo = rank-2 first-order (tangent) operator, kept as a comparison baseline.
 # geo4 (tangents from both dates) is available but not in the default list (E02 ablation only).
 FEATURE_METHODS = ["raw", "geo", "geoP", "geo-smooth", "rad", "geo+rad", "geoP+rad", "shiftV", "shiftV+gate", "rad+gate",
                    "localmin"]

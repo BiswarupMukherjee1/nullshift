@@ -1,6 +1,6 @@
 # MXR-LA-v1 — real bitemporal window pairs (Maxar Open Data, Los Angeles wildfires, Dec 2024 – Jan 2025)
 
-**Purpose.** A *real* arena for NullShift, answering two criticisms of Phase 1: LEVIR-CD pairs are 5–14 years apart
+**Purpose.** A *real* arena for NullShift, addressing two limitations of synthetic null pairs: LEVIR-CD pairs are 5–14 years apart
 (natural differences hide instrument nuisance), and synthetic null pairs build the operator from the very image that is
 perturbed. Here t1 and t2 are **different satellite acquisitions** of the same place, and the operator only sees t1.
 **No manual labelling**: labels come from acquisition dates and public burn perimeters.

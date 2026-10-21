@@ -10,13 +10,13 @@ Original E05 docstring follows.
 E05 — REAL-ARENA test on MXR-LA-v1 (Maxar LA wildfire acquisitions): does each method separate real destruction
 (pre vs post inside burn perimeters) from real acquisition nuisance (two different acquisitions days apart)?
 
-Answers both external critiques of Phase 1: (1) LEVIR's multi-year pairs hide nuisance -> here null pairs are days apart;
+Addresses two limitations of synthetic null pairs: (1) LEVIR's multi-year pairs hide nuisance -> here null pairs are days apart;
 (2) synthetic null pairs build the operator from the image that is perturbed -> here t1 and t2 are different
 acquisitions (satellite, off-nadir, sun, date) and the operator only ever sees t1.
 Nothing is tuned here: eps, probe rank, subspaces and LEVIR thresholds are frozen from LEVIR val.
 Metrics: patch- and window-level AUROC(change vs null), TPR at 5 % null false-change rate, nuisance-to-change ratio,
 FCR of real nulls at the LEVIR-calibrated thresholds, null score vs off-nadir difference, scene-bootstrap CIs.
-Usage: scripts/launch.sh e05 nullshift-venv/bin/python experiments/E05_maxar_realpairs/run.py --e03-run <dir>
+Usage: PYTHONPATH=src python experiments/E06_coarse_to_fine/run.py --e03-run <E03 run dir> [--encoder dinov3_vitb16_web] [--dataset MXR-TX-v1]
 """
 import argparse
 import json

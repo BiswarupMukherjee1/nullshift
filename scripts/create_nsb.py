@@ -1,7 +1,7 @@
 """Create the NullShift null-pair benchmark NSB-v1 (manifests, seeds, previews, dose statistics, datasheet).
 
 No perturbed images are stored: every null pair is (crop, family, dose_idx, seed) and is regenerated bit-exactly by
-`nullshift.nuisance.apply_nuisance`. Usage: PYTHONPATH=src nullshift-venv/bin/python scripts/create_nsb.py
+`nullshift.nuisance.apply_nuisance`. Usage: PYTHONPATH=src python scripts/create_nsb.py
 """
 import json
 import sys

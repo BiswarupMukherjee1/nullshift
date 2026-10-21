@@ -1,5 +1,5 @@
-"""Download a timm encoder into the project HF cache, save an fp16 local copy in models/, delete the cache (storage).
-Usage: PYTHONPATH=src nullshift-venv/bin/python scripts/fetch_encoder.py dinov3_vitb16_web"""
+"""Download a timm encoder into the project HF cache, save an fp16 local copy in models/, delete the cache.
+Usage: PYTHONPATH=src python scripts/fetch_encoder.py dinov3_vitb16_web"""
 import shutil
 import sys
 

@@ -7,7 +7,7 @@ For each operator O, the pooled fraction of residual energy it removes, rho = su
 Selectivity = rho_nuisance / rho_change (1 = no separation; H2 kill if ~1). Chance = rank / C.
 H6: the NFAD incidence gate (per-image gamma from the spatial participation ratio of residual energy) should keep
 removing radiometric nuisance (spatially spread) but back off on misregistration (edge-local) -> reported via
-mean gamma and phi per family. Usage: PYTHONPATH=src nullshift-venv/bin/python experiments/E02_selectivity/run.py --eps <eps*>
+mean gamma and phi per family. Usage: PYTHONPATH=src python experiments/E02_selectivity/run.py --eps <eps*>
 """
 import argparse
 import sys
@@ -47,7 +47,7 @@ S = {k: v.cuda() for k, v in torch.load(paths.NSB / "subspaces" / a.subspaces).i
 C = enc.dim
 OPS = ["geo", "geo4", "geoP", "geo-smooth", "shiftV", "shiftV+gate", "rad", "rad+gate", "geo+rad", "geoP+rad",
        "radP", "geoP+radP"]
-RR = 4   # radP rank (per-patch radiometric probe subspace, Phase 1b)
+RR = 4   # radP rank (per-patch radiometric probe subspace)
 DISPS = op.probe_displacements(8, (0.5, 1.0, 2.0))
 PR = 8
 RANK = {"geo": 2, "geo4": 4, "geoP": PR, "geoP+rad": PR + S["V_rad"].shape[1], "geo-smooth": 2, "radP": RR, "geoP+radP": PR + RR, "shiftV": S["V_shift"].shape[1], "shiftV+gate": S["V_shift_g"].shape[1],

@@ -179,7 +179,7 @@ def project_basis(r: torch.Tensor, U: torch.Tensor) -> torch.Tensor:
     return r - torch.einsum("bckhw,bkhw->bchw", U, c)
 
 
-# ------------------------------------------------------------------ radiometric probe subspace (radP) — Phase 1b
+# ------------------------------------------------------------------ radiometric probe subspace (radP)
 RAD_PROBES = [("gain", 0.9), ("gain", 1.1), ("gamma", 0.85), ("gamma", 1.18), ("haze", 0.08),
               ("colour", 0), ("colour", 1), ("blur", 0.8), ("jpeg", 50)]
 

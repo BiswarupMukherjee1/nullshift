@@ -5,7 +5,7 @@ mode = "null"      : null pair (B, T(B))                  group : all (every pat
 mode = "perturbed" : real pair with nuisance (A, T(B))    groups: as clean
 mode = "null2"     : TWO-SIDED null pair (T_a(B), T_b(B)) with independent draws a != b of the same family/dose —
                      the operator is built from T_a(B), which is NOT the image that was perturbed into t2
-                     (answers the "operator built from the image that gets perturbed" critique).
+                     (tests whether the gain depends on building the operator from the very image that is perturbed).
 G3 (parallax) only counts crops whose centre has >= 1 % labelled building pixels (the footprint source).
 """
 from __future__ import annotations

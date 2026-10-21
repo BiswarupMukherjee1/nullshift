@@ -5,7 +5,7 @@ V_rad   : NFAD transfer. Per radiometric family R1..R7: uncentred second moment 
 V_shift : same construction from global geometric interventions (G1 shifts, G2 fields at doses 2,3,4) -> the
           "one global subspace for misregistration" that H6 says cannot work.
 *_g     : NFAD incidence-gate bases (columns with participation ratio > lower quartile on clean val features).
-Usage: PYTHONPATH=src nullshift-venv/bin/python scripts/fit_subspaces.py [--kf 8] [--layer -1]
+Usage: PYTHONPATH=src python scripts/fit_subspaces.py [--kf 8] [--layer -1]
 """
 import argparse
 import json

@@ -1,7 +1,7 @@
 """E04 — Perturbed real pairs (A, T(B)) (FAF-CD-style arm): does each method keep detecting REAL change when the
 t2 acquisition carries a nuisance? Thresholds are re-used from an E03 run (clean-val tau*); nothing tuned on test.
 Reports patch-F1 / pixel-F1 / AUROC per (family, dose, method) and the drop vs the same crops at dose 0.
-Usage: PYTHONPATH=src nullshift-venv/bin/python experiments/E04_perturbed_pair/run.py --e03-run <E03 run dir> --eps <eps*>
+Usage: PYTHONPATH=src python experiments/E04_perturbed_pair/run.py --e03-run <E03 run dir> --eps <eps*>
 """
 import argparse
 import json
